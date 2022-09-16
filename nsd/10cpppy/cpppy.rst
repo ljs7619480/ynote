@@ -339,7 +339,7 @@ the grid definition class :cpp:class:`!Grid`.  Its wrapper is the simplest:
   }; /* end class WrapGrid */
 
 When there are overloads in the C++ code, sometimes we may need to specify the
-function signature using ``static_cast`` like that in (highlighted) line 45.
+function signature using ``static_cast`` like that in (highlighted) line 55.
 An alternate way is to use a lambda expression.
 
 A slightly more complex wrapper is for the class :cpp:class:`!Field`.  In
